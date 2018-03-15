@@ -5,7 +5,7 @@ from pprint import pprint
 MICROSOFT_API_KEY = "YOUR API KEY"
 GOOGLE_API_KEY = "YOUR API KEY"
 
-image_url = input("Enter an image URL to one of the pages in a manga chapter: ")
+image_url = input("Enter an image URL to one of the pages in a manga chapter: http://1.bp.blogspot.com/-mWj6Ul7JfOw/Wp8-nDdsoyI/AAAAAAADTN4/sMjoc5pW1JI11k-JnJlIC5QUJgig4RmCgCHMYCw/s0/IMG_083.jpg")
 headers = {"ocp-apim-subscription-key": MICROSOFT_API_KEY, "content-type": "application/json"}
 payload = {"language": "unk", "orientation": "true"}
 data = {"url": image_url}
